@@ -337,7 +337,7 @@
 // One of the overlay layers should have visibility:true
 
 
-    var sixinch = new OpenLayers.Layer.OSM("Great Britain, OS Six Inch, 1888-1913", "http://nls-0.tileserver.com/os_6_inch_gb/${z}/${x}/${y}.jpg",
+    var sixinch = new OpenLayers.Layer.OSM("Great Britain, OS Six Inch, 1888-1913", "http://geo.nls.uk/mapdata3/os/6_inch_gb_1900/${z}/${x}/${y}.png",
     {
         numZoomLevels: 18,
         backgroundColor: '#eee',
