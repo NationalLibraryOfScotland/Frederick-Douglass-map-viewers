@@ -337,18 +337,23 @@
 // One of the overlay layers should have visibility:true
 
 
-    var sixinch = new OpenLayers.Layer.OSM("Great Britain, OS Six Inch, 1888-1913", "http://geo.nls.uk/mapdata3/os/6_inch_gb_1900/${z}/${x}/${y}.png",
+    var sixinch = new OpenLayers.Layer.OSM("Scotland, OS Six Inch, 1843-1882", "http://geo.nls.uk/maps/os/six_inch/${z}/${x}/${y}.png",
     {
         numZoomLevels: 18,
         backgroundColor: '#eee',
 	isBaseLayer: false, 
         visibility: true,
-        attribution: '<a href="http://maps.nls.uk/os/6inch-england-and-wales/index.html">OS six-inch (1888-1913) layer</a> courtesy of the <a href="http://maps.nls.uk/">National Library of Scotland</a>',     
+        attribution: '<a href="http://maps.nls.uk/os/6inch/index.html" target="_blank">Ordnance Survey Six Inch, 1843-1882 layer</a> courtesy of the <a href="http://maps.nls.uk/">National Library of Scotland</a>',     
  	resolutions: allresolutions,
-        serverResolutions: serverResolutions19,
+        serverResolutions: serverResolutions17,
         transitionEffect: 'resize',
         tileOptions: {crossOriginKeyword: null}    
     });
+    sixinch.getXYZ = function ( bounds ) {
+      var xyz = OpenLayers.Layer.OSM.prototype.getXYZ.apply(this, arguments);
+      xyz['y'] = (Math.pow(2, xyz['z'])-xyz['y']-1);
+      return xyz;
+    }
 
 
     var oneinchseventh = new OpenLayers.Layer.OSM("Great Britain, OS One Inch, 1955-61", "http://geo.nls.uk/mapdata2/os/seventh/${z}/${x}/${y}.png",
@@ -421,7 +426,7 @@
     if (!map.getCenter()) {
         // Zoom map to extent of Scotland - coordintates must be trasformed from WGS84 to spherical mercator
         var proj = new OpenLayers.Projection("EPSG:4326");
-        map.zoomToExtent(new OpenLayers.Bounds( -8.4, 50.5, 2.4, 59.8 ).transform(proj, map.getProjectionObject()));
+        map.zoomToExtent(new OpenLayers.Bounds( -6.4, 55.5, -0.4, 58.8 ).transform(proj, map.getProjectionObject()));
     }
 
 
