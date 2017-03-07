@@ -1,10 +1,10 @@
-NLSExploreSixInch
-=================
+Thomas Annan photos map viewer
+==============================
 
-This <a href="http://geo.nls.uk/maps/dev/sixinchexplore/index.html">demonstration application</a> uses <a href="http://dev.openlayers.org/releases/OpenLayers-2.13.1/">OpenLayers 2.13</a>, a <a href="http://jqueryui.com/">JQuery UI</a> transparency slider and <a href="http://www.maptiler.com/">MapTiler</a> georeferenced mosaics to form a viewer for the OS six-inch 1843-1882 maps of Scotland as an historical georeferenced map mosaic. Searching is possible by zooming in on the map, with an option to change the map base layer between OpenStreetMap, Bing and Google layers. Searching is also possible by using a Nominatim gazetteer, a British National Grid Reference, as well as historic county and parish drop-down lists. 
+This <a href="http://geo.nls.uk/maps/dev/thomas-annan/index.html">demonstration application</a> uses <a href="http://openlayers.org">OpenLayers 3.14</a>, a <a href="http://jqueryui.com/">JQuery UI</a> transparency slider and <a href="http://www.maptiler.com/">MapTiler</a> georeferenced mosaics to form a viewer for <a href="http://digital.nls.uk/learning/thomas-annan-glasgow/index.html">Thomas Annan photographs of Glasgow</a>. 
 
-The application is a customised version of the <a href="https://github.com/NationalLibraryOfScotland/NLSExploreGeoreferencedMaps">NLSExploreGeoreferencedMaps</a> Github repository and application, sharing a similar interface, use of OpenLayers, gazetteer search and css.
+The locations of the photographs are shown using <a href="http://geojson.org/geojson-spec.html">GeoJSON</a> sets of points.
 
-The application accompanies the <a href="https://github.com/NationalLibraryOfScotland/NLSFindMapsByPlace">NLSFindMapsByPlace</a> Github repository and application, sharing a similar interface, use of OpenLayers, gazetteer search and css.
+The URL of the application changes dynamically to show the particular zoom level and centre of the map, as well as if a place is selected. You can save this specific URL to return to a specific map view or selected place. 
 
-View a more <a href="http://maps.nls.uk/geo/explore/">complete working version of the application</a> on the National Library of Scotland Map Images website.
+View the <a href="http://digital.nls.uk/learning/thomas-annan-glasgow/historical-maps/">complete working version of the application</a> on the National Library of Scotland website.
