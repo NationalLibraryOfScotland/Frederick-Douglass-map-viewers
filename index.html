@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" dir="ltr" lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Historical maps: The lost world of Glasgow and Edinburgh - National Library of Scotland.</title>
+	<meta name="description" content="Thomas Annan's historical photographs of Glasgow and Edinburgh.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.0/css/bootstrap-slider.css" media="screen" />
+	    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+    <!-- specific css to this map -->
+	    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen" />
+    <!-- OpenLayers css -->
+    	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/3.14.0/ol.css" media="screen" />
+	    <style>
+		#sidebar {color:#333;}
+	    </style>
+
+	<div id="header">
+
+		<div id="home"><a href="http://maps.nls.uk/index.html">Home</a></div>
+
+			<div id="headertitle">
+
+			<h2>Map viewer for Thomas Annan project - Glasgow 1850s OS overlay - <a href="http://digital.nls.uk/learning/thomas-annan-glasgow/historical-maps/">view completed version</a></h2>
+		
+			</div>
+
+	</div>
+
+    	<div id="sidebar">
+
+	      <h4>Change transparency of Ordnance Survey 1850s map overlay:</h4>
+	      <p class="infomapslider">
+	        <input id="mapslider" data-slider-id='mapsslider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="100"/>
+	      </p>
+	      <br/>
+	      <h4>Choose a background map:</h4>
+      		<div id="baselayerSelect" >
+        	</select>
+      		</div>
+    	</div>
+
+    	<div id="map" class="map">
+		<div id="popup"></div>
+	</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.14.0/ol.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.0/bootstrap-slider.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Our specific map Javascript -->
+    <script type="text/javascript" src="js/annan.js"></script>
+
+</body>
+</html>
