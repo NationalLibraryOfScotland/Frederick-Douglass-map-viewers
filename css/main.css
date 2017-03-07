@@ -1,0 +1,44 @@
+/* CSS full-screen layout - site specific elements */
+
+html { overflow: hidden; }
+body { overflow: hidden; padding: 0; margin: 0; width: 100%; height: 100%; font-family: Trebuchet MS, Trebuchet, Arial, sans-serif; background: #FFFFFF;}
+h1 { padding:7px 10px; margin:0; font-size: 1.2em; line-height:0.2em; }
+h2 { padding:7px 10px; margin:0; font-size: 1.0em; }
+h3 {	font-size: 0.9em; border-bottom: 1px solid #ccc;}
+h4 {	font-size: 0.85em;}
+label { font-size: 0.9em;}
+
+
+#header { position: absolute; top: 10px; left: 10px; right:10px; height: 80px; overflow: hidden;  background: #fff; background-image: url('../img/25_inch_1st_ed_banner.jpg'); 
+background-repeat:no-repeat; background-position:right top; box-shadow: 0 1px 3px #ccc; border: 1px solid #ccc; }
+
+#home { position: absolute; top: 10px; left: 10px; } 
+
+#headertitle { position: absolute; top: 10px; left: 100px; right:20px; overflow: hidden; text-align:center; } 
+
+
+
+#main { position: absolute; top: 110px; left: 10px; right: 10px; bottom: 10px; overflow: auto; border: 1px solid #592F57; border-radius: 8px; box-shadow: 0 0px 0px #CCC; 
+padding: 10px 10px 10px 10px; background: #fff; z-index: 10001;}
+
+.floatright {float:right;margin-left: 22px;margin-bottom: 20px;background:#ffffff;}
+ 
+
+#map { position: absolute; top: 100px; left: 10px; right: 10px; bottom: 10px; overflow: hidden; border: 1px solid #ccc; box-shadow: 0 0px 0px #CCC; background-color: #cedfe4;} 
+
+#sidebar { position: absolute; top: 110px; left: 70px; width: 200px; font-size: 14px; overflow: auto; border: 1px solid #592F57; border-radius: 8px; box-shadow: 0 0px 0px #CCC; 
+padding: 10px 10px 10px 10px; background: #fff; z-index: 10001;}
+
+#scalebar {position: absolute; right: 20px; bottom: 75px; z-index: 10001; font-size: small;}
+
+#resultsSideBar {position: absolute;top: 110px;	border-radius: 5px;right: 55px;width: 150px;z-index: 20000;background-color: white;overflow: auto;margin: 0px;padding: 10px;
+background:rgba(255,255,255,0.95);}
+
+.mslider {  width: 100%;  background: #FFFFFF;  position:absolute;  bottom: 20px;  opacity: 0.8;  z-index: 10000000;}
+
+#mapslider .slider-selection {  background: white;  padding-left: 40px;}
+
+.slider.slider-horizontal  {
+  width: 130px;
+  height: 20px;
+}
