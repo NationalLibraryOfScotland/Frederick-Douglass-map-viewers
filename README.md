@@ -7,11 +7,8 @@ The <a href="https://geo.nls.uk/maps/douglass/index.html">viewers</a> use <a hre
 
 They include a <a href="https://geo.nls.uk/maps/douglass/">map of the places in Edinburgh</a> where Frederick Douglass lived, held meetings and gave speeches during his antislavery campaign. 
 
-
-There are also map viewers showing <a href="https://geo.nls.uk/maps/douglass/abolitionists.html">Black Abolitionists in Edinburgh</a>, and of <a href="https://geo.nls.uk/maps/douglass/scotland.html">Frederick Douglass in Scotland</a>.
-
 There are also map viewers showing <a href="https://geo.nls.uk/maps/douglass/abolitionists.html">Black Abolitionists in Edinburgh</a>, and the places associated with <a href="https://geo.nls.uk/maps/douglass/scotland.html">Frederick Douglass in Scotland</a>.
 
-The locations associated with Douglass and the Black Abolitionists are shown using <a href="http://geojson.org/geojson-spec.html">GeoJSON</a> sets of points.
+The locations associated with Douglass and the Black Abolitionists are shown using <a href="http://geojson.org/geojson-spec.html">GeoJSON</a> sets of points. The unique numbers of these points are used to link between the leftpanel texts and the points on the map, and from the points on the map to the leftpanel text.
 
 The content for this map has principally been gathered by Dr Celeste Marie-Bernier, with assistance from Nick Batho and Andrew Taylor. The map viewers have been put together by Chris Fleet.
