@@ -1,10 +1,17 @@
-Thomas Annan photos map viewer
-==============================
+'Our Bondage and Our Freedom' - Frederick Douglass in Edinburgh and Scotland
+============================================================================
 
-This <a href="http://geo.nls.uk/maps/dev/thomas-annan/index.html">demonstration application</a> uses <a href="http://openlayers.org">OpenLayers 3.14</a>, a <a href="http://jqueryui.com/">JQuery UI</a> transparency slider and <a href="http://www.maptiler.com/">MapTiler</a> georeferenced mosaics to form a viewer for <a href="http://digital.nls.uk/learning/thomas-annan-glasgow/index.html">Thomas Annan photographs of Glasgow</a>. 
+These <a href="https://geo.nls.uk/maps/douglass/index.html">map viewers</a> form part of the <a href="https://www.ed.ac.uk/literatures-languages-cultures/research/current-projects/our-bondage-and-our-freedom" >Our Bondage and Our Freedom project</a>, celebrating the 200 year anniversary of the birth of African American activist and author, Frederick Douglass, in 2018. 
 
-The locations of the photographs are shown using <a href="http://geojson.org/geojson-spec.html">GeoJSON</a> sets of points, and on selection, Bootstrap <a href="https://v4-alpha.getbootstrap.com/components/popovers/">Popovers</a> show a thumbnail image and text.
+The <a href="https://geo.nls.uk/maps/douglass/index.html">viewers</a> use <a href="http://openlayers.org">OpenLayers 4.4.2</a>, <a href="http://jqueryui.com/">JQuery</a> to provide animation and a scrollable left panel, and <a href="https://www.maptiler.com/desktop/">MapTiler</a> georeferenced mosaics of historical maps. 
 
-The URL of the application changes dynamically to show the particular zoom level and centre of the map, as well as if a place is selected. You can save this specific URL to return to a specific map view or selected place. 
+They include a <a href="https://geo.nls.uk/maps/douglass/">map of the places in Edinburgh</a> where Frederick Douglass lived, held meetings and gave speeches during his antislavery campaign. 
 
-View the <a href="http://digital.nls.uk/learning/thomas-annan-glasgow/historical-maps/">complete working version of the application</a> on the National Library of Scotland website.
+
+There are also map viewers showing <a href="https://geo.nls.uk/maps/douglass/abolitionists.html">Black Abolitionists in Edinburgh</a>, and of <a href="https://geo.nls.uk/maps/douglass/scotland.html">Frederick Douglass in Scotland</a>.
+
+There are also map viewers showing <a href="https://geo.nls.uk/maps/douglass/abolitionists.html">Black Abolitionists in Edinburgh</a>, and the places associated with <a href="https://geo.nls.uk/maps/douglass/scotland.html">Frederick Douglass in Scotland</a>.
+
+The locations associated with Douglass and the Black Abolitionists are shown using <a href="http://geojson.org/geojson-spec.html">GeoJSON</a> sets of points.
+
+The content for this map has principally been gathered by Dr Celeste Marie-Bernier, with assistance from Nick Batho and Andrew Taylor. The map viewers have been put together by Chris Fleet.
