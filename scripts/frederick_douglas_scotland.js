@@ -15,7 +15,6 @@
 { "type": "Feature", "properties": { "Name": "10", "No": "10", "Address": "Fenwick", "City": null, "ID": 10 }, "geometry": { "type": "Point", "coordinates": [ -4.445858905, 55.6540237025, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "11", "No": "11", "Address": "Glasgow", "City": "15th January 1846; 21-23rd April 1846; 30th September 1846; 1st October 1846;", "ID": 11 }, "geometry": { "type": "Point", "coordinates": [ -4.2448228853, 55.8587867796, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "12", "No": "12", "Address": "Dundee", "City": "19-21st February 1846", "ID": 12 }, "geometry": { "type": "Point", "coordinates": [  -2.9714, 56.4590 , 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "13", "No": "13", "Address": "Glasgow", "City": "2nd October 1846", "ID": 13 }, "geometry": { "type": "Point", "coordinates": [ -4.262612977, 55.8569643307, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "14", "No": "14", "Address": "Glasgow", "City": "14th February 1860", "ID": 14 }, "geometry": { "type": "Point", "coordinates": [ -4.2475148847, 55.8602595528, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "15", "No": "15", "Address": "Glasgow", "City": "26th March 1860", "ID": 15 }, "geometry": { "type": "Point", "coordinates": [ -4.2792508649, 55.8666188354, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "16", "No": "16", "Address": "Glasgow", "City": "28th March 1860", "ID": 16 }, "geometry": { "type": "Point", "coordinates": [ -4.2371843121, 55.8563060182, 0.0 ] } },
