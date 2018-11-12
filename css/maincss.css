@@ -10,9 +10,14 @@ h5 { padding:4px 10px; margin:0; color: rgba(248, 211, 67, 0.9); font-size: 1.3e
  
 .hr { margin: auto; width:80%; margin-top: 20px;     margin-bottom: 20px;    border: 0;    border-top: 1px solid #eee; max-width: 500px; }
 
-#leftpanel a,#leftpanel a:focus,#leftpanel a:hover {
- color: white;
+#leftpanel a,#leftpanel a:focus {
+ text-decoration: underline;
  }
+
+#leftpanel a:hover {
+ color: rgba(248, 211, 67, 0.9);
+ }
+
 
 .text {}
 
